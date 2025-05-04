@@ -1,8 +1,8 @@
-+++
+---
 date = '2025-05-04T22:51:13+02:00'
 draft = false
 title = 'My First Post'
-+++
+---
 
 This is a note about Riemannian geometry.
 
