@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- 0.147.1</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 04 May 2025 22:51:13 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Sun, 04 May 2025 22:51:13 +0200</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;p&gt;This is a note about Riemannian geometry.&lt;/p&gt;
+&lt;h3 id=&#34;-example-inline-math&#34;&gt;🌟 Example: Inline math&lt;/h3&gt;
+&lt;p&gt;We define a metric tensor $g_{ij}$ on a manifold $M$ such that $ds^2 = g_{ij} dx^i dx^j$.&lt;/p&gt;
+&lt;h3 id=&#34;-example-block-math&#34;&gt;🧮 Example: Block math&lt;/h3&gt;
+&lt;p&gt;$$
+\nabla_X Y = D_X Y + \Gamma(X, Y)
+$$&lt;/p&gt;
+&lt;p&gt;Where $\nabla$ is the covariant derivative, and $\Gamma$ is the Christoffel symbol.&lt;/p&gt;
+&lt;p&gt;[
+\int_{M} f(x) dx =0.
+]&lt;/p&gt;
+&lt;p&gt;\begin{equation} &lt;br&gt;
+\int_{M} f(x) dx =0.
+\end{equation}&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

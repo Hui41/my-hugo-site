@@ -1,0 +1,25 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'PaperMod'  
+
+[params]
+  math = true
+  ShowReadingTime = true
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  hideFooter = false
+
+[env]
+  canonicalUrl = "https://example.org/"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    languageCode = "en-us"
+    contentDir = "content"
+    permalink = "/:year/:month/:day/:slug/"
+    title = "My New Hugo Site"
