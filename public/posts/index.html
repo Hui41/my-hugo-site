@@ -62,21 +62,15 @@
     </style>
 </noscript>
 
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/kaTeX/0.13.18/katex.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/kaTeX/0.13.18/katex.min.css">
-
-
-<script type="text/javascript">
-  document.addEventListener("DOMContentLoaded", function () {
-    
-    window.katex.renderMathInElement(document.body, {
-      delimiters: [
-        {left: "$$", right: "$$", display: true},
-        {left: "$", right: "$", display: false}
-      ]
-    });
-  });
-</script>
+<script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
 </head>
 
 <body class="list" id="top">
@@ -139,11 +133,11 @@
 🌟 Example: Inline math We define a metric tensor $g_{ij}$ on a manifold $M$ such that $ds^2 = g_{ij} dx^i dx^j$.
 🧮 Example: Block math $$ \nabla_X Y = D_X Y &#43; \Gamma(X, Y) $$
 Where $\nabla$ is the covariant derivative, and $\Gamma$ is the Christoffel symbol.
-[ \int_{M} f(x) dx =0. ]
+\[ \frac{1}{\pi} = \frac{2\sqrt{2}}{9801} \sum_{k=0}^\infty \frac{(4k)!(1103&#43;26390k)}{(k!)^4 396^{4k}} \]
 \begin{equation} \int_{M} f(x) dx =0. \end{equation}
 </p>
   </div>
-  <footer class="entry-footer"><span title='2025-05-04 22:51:13 +0200 CEST'>May 4, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;66 words</footer>
+  <footer class="entry-footer"><span title='2025-05-04 22:51:13 +0200 CEST'>May 4, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;68 words</footer>
   <a class="entry-link" aria-label="post link to My First Post" href="http://localhost:1313/posts/my-first-post/"></a>
 </article>
     </main>

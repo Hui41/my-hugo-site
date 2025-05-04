@@ -21,9 +21,9 @@
 \nabla_X Y = D_X Y + \Gamma(X, Y)
 $$&lt;/p&gt;
 &lt;p&gt;Where $\nabla$ is the covariant derivative, and $\Gamma$ is the Christoffel symbol.&lt;/p&gt;
-&lt;p&gt;[
-\int_{M} f(x) dx =0.
-]&lt;/p&gt;
+&lt;p&gt;\[
+\frac{1}{\pi} = \frac{2\sqrt{2}}{9801} \sum_{k=0}^\infty \frac{(4k)!(1103+26390k)}{(k!)^4 396^{4k}}
+\]&lt;/p&gt;
 &lt;p&gt;\begin{equation} &lt;br&gt;
 \int_{M} f(x) dx =0.
 \end{equation}&lt;/p&gt;</description>
