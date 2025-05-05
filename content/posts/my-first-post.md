@@ -23,3 +23,6 @@ $$
 \int_M f dv_g=\int_{\partial M} g ds.
 $$
 
+\begin{equation}
+f(x)=\sum_{k} 
+\end{equation}
