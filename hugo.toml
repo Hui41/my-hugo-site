@@ -23,3 +23,8 @@ theme = 'PaperMod'
     contentDir = "content"
     permalink = "/:year/:month/:day/:slug/"
     title = "My New Hugo Site"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
