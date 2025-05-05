@@ -1,3 +1,4 @@
+
 ---
 title: "My New Post"
 date: 2025-05-05
@@ -13,3 +14,12 @@ Block math:
 $$
 \int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
 $$
+
+
+
+这是我的第一篇文章，用于测试 Hugo。
+
+$$
+\int_M f dv_g=\int_{\partial M} g ds.
+$$
+
